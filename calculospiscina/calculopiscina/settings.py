@@ -76,15 +76,14 @@ WSGI_APPLICATION = 'calculopiscina.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'calculopiscina',  # Nombre de la base de datos
-        'USER': 'postgres',  # Usuario de la base de datos
-        'PASSWORD': '1234',  # Contraseña del usuario
-        'HOST': 'localhost',  # Dirección del servidor, 'localhost' si está en tu máquina
-        'PORT': '5432',  # Puerto por defecto de PostgreSQL
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'rubenr7$default',
+        'USER': 'rubenr7',
+        'PASSWORD': 'K0r84n**',
+        'HOST': 'rubenr7.mysql.pythonanywhere-services.com',  # algo como your_username.mysql.pythonanywhere-services.com
+        'PORT': '3306',
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
